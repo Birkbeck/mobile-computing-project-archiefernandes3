@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Culinary Companion</string>
+    <string name="hint_recipe_title">Recipe Title</string>
+    <string name="hint_ingredients">Ingredients</string>
+    <string name="hint_instructions">Instructions</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="sample_pancakes">Pancakes</string>
+    <string name="sample_ingredients">Flour, Eggs, Milk</string>
+    <string name="sample_instructions">Mix all ingredients and cook on medium heat.</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="add_recipe">Add Recipe</string>
+    <string name="spaghetti">Spaghetti</string>
+    <string name="pancakes">Pancakes</string>
+    <string name="caesar_salad">Caesar Salad</string>
+    <string name="pasta">Pasta</string>
+    <string name="title_pancakes">Title: Pancakes</string>
+    <string name="ingredients_n_flour_n_eggs_n_milk">Ingredients:\n- Flour\n- Eggs\n- Milk</string>
+    <string name="instructions_n_mix_all_ingredients_and_cook_on_medium_heat">Instructions:\nMix all ingredients and cook on medium heat.</string>
+    <string name="category_breakfast">Category: Breakfast</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+
+    <string-array name="categories">
+        <item>Breakfast</item>
+        <item>Brunch</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+        <item>Desserts</item>
+        <item>Other</item>
+    </string-array>
+</resources>
