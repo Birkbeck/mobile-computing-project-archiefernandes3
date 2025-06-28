@@ -5,22 +5,20 @@
     <string name="hint_instructions">Instructions</string>
     <string name="save">Save</string>
     <string name="cancel">Cancel</string>
-
     <string name="sample_pancakes">Pancakes</string>
     <string name="sample_ingredients">Flour, Eggs, Milk</string>
     <string name="sample_instructions">Mix all ingredients and cook on medium heat.</string>
     <string name="save_changes">Save Changes</string>
+    <string name="recipe_title">Recipe Title</string>
     <string name="add_recipe">Add Recipe</string>
-    <string name="spaghetti">Spaghetti</string>
-    <string name="pancakes">Pancakes</string>
-    <string name="caesar_salad">Caesar Salad</string>
-    <string name="pasta">Pasta</string>
-    <string name="title_pancakes">Title: Pancakes</string>
-    <string name="ingredients_n_flour_n_eggs_n_milk">Ingredients:\n- Flour\n- Eggs\n- Milk</string>
-    <string name="instructions_n_mix_all_ingredients_and_cook_on_medium_heat">Instructions:\nMix all ingredients and cook on medium heat.</string>
-    <string name="category_breakfast">Category: Breakfast</string>
+    <string name="title">Title</string>
+    <string name="ingredients">Ingredients:</string>
+    <string name="instructions">Instructions:</string>
+    <string name="category">Category:</string>
     <string name="edit">Edit</string>
     <string name="delete">Delete</string>
+    <string name="label_category">Category</string>
+    <string name="title_edit_recipe">Edit Recipe</string>
 
     <string-array name="categories">
         <item>Breakfast</item>

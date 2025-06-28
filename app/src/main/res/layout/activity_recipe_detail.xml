@@ -1,54 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clipToPadding="true"
+    android:fillViewport="true"
+    android:padding="24dp"
+    android:background="?attr/android:colorBackground">
 
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp">
 
-        <TextView
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/title_pancakes"
+            app:title="@string/app_name"
+            app:titleTextColor="@color/black"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/detailTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
             android:textSize="18sp"
-            android:padding="8dp" />
+            android:padding="8dp"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:text="@string/ingredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:paddingTop="8dp"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:id="@+id/detailIngredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/ingredients_n_flour_n_eggs_n_milk"
-            android:padding="8dp"
-            android:textSize="16sp" />
+            android:text="@string/instructions"
+            android:textStyle="bold"
+            android:paddingTop="8dp"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:id="@+id/detailInstructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:paddingBottom="8dp"
+            android:layout_marginBottom="12dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/instructions_n_mix_all_ingredients_and_cook_on_medium_heat"
+            android:text="@string/category"
             android:padding="8dp"
-            android:textSize="16sp" />
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"/>
 
         <TextView
+            android:id="@+id/detailCategory"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/category_breakfast"
-            android:padding="8dp"
-            android:textSize="16sp" />
+            android:textSize="16sp"
+            android:paddingBottom="16dp"
+            android:layout_marginBottom="16dp"/>
 
         <Button
             android:id="@+id/buttonEdit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/edit" />
+            android:text="@string/edit"
+            android:layout_marginTop="12dp"/>
 
         <Button
             android:id="@+id/buttonDelete"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/delete" />
+            android:text="@string/delete"
+            android:layout_marginTop="8dp"
+            style="?attr/materialButtonOutlinedStyle"/>
 
     </LinearLayout>
 </ScrollView>
